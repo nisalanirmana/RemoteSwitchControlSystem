@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:focusableInTouchMode="true"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:layout_width="138dp"
+        android:layout_height="152dp"
+        android:id="@+id/buttonoff"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.05"
+        android:layout_x="414dp"
+        android:layout_y="762dp"
+        android:background="@drawable/off" />
+
+    <ImageButton
+        android:layout_width="143dp"
+        android:layout_height="148dp"
+        android:id="@+id/buttonon"
+        android:layout_gravity="center_vertical"
+        android:layout_x="253dp"
+        android:layout_y="762dp"
+        android:background="@drawable/green" />
+
+    <ToggleButton
+        android:layout_width="94dp"
+        android:layout_height="78dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton2"
+        android:layout_x="126dp"
+        android:layout_y="552dp"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="89dp"
+        android:layout_height="78dp"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:layout_x="573dp"
+        android:layout_y="557dp"
+        android:checked="false" />
+
+    <ImageView
+        android:layout_width="284dp"
+        android:layout_height="284dp"
+        android:id="@+id/imageView"
+        android:layout_x="39dp"
+        android:layout_y="248dp"
+        android:background="@drawable/bulb" />
+
+    <ImageView
+        android:layout_width="247dp"
+        android:layout_height="247dp"
+        android:id="@+id/imageView2"
+        android:layout_x="495dp"
+        android:layout_y="283dp"
+        android:background="@drawable/plug" />
+
+    <ImageView
+        android:layout_width="432dp"
+        android:layout_height="138dp"
+        android:id="@+id/imageView3"
+        android:layout_x="191dp"
+        android:layout_y="933dp"
+        android:background="@drawable/kevilton" />
+
+
+</AbsoluteLayout>
